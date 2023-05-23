@@ -17,7 +17,7 @@
 
 <body>
 
-    <h1>Welcome page</h1>
+    <h1>{{ $title }}</h1>
 
 </body>
 
