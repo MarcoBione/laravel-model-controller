@@ -7,6 +7,7 @@
             @foreach ($movies as $movie)
                 <li>
                     {{ $movie->title }}
+                    {{ $movie->id }}
                 </li>
             @endforeach
         </ul>

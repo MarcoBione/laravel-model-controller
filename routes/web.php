@@ -18,5 +18,15 @@ use App\Http\Controllers\PageController as PageController;
 Route::get('/', [PageController::class, 'index'])->name('home');
 
 //percorso per accedere alla pagina contenente tutti i movies
-Route::get('/movies', [PageController::class, 'index'])->name('movies.show');
+Route::get('/movies', [PageController::class, 'show'])->name('movies.show');
+
+Route::get('/test', function(){
+    return[
+        [
+            'id'=>'1',
+            'name'=>'filippo'
+        ],
+
+    ];
+});
 

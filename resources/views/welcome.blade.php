@@ -37,8 +37,7 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('movies.show') }}">List of
-                                movies</a>
+                            <a class="nav-link" href="{{ route('movies.show') }}">List of movies</a>
                         </li>
 
                     </ul>
