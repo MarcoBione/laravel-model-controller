@@ -14,4 +14,9 @@ use App\Http\Controllers\PageController as PageController;
 |
 */
 
-Route::get('/', [PageController::class, 'index']);
+//home page contenente solo i 'most popular'
+Route::get('/', [PageController::class, 'index'])->name('home');
+
+//percorso per accedere alla pagina contenente tutti i movies
+Route::get('/movies', [PageController::class, 'index'])->name('movies.show');
+
